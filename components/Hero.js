@@ -3,7 +3,7 @@ import Button from './Button';
 
 export default function Hero() {
   return (
-    <div className="h-[650px] bg-cover bg-bottom bg-hero">
+    <div className="h-[700px] bg-cover bg-bottom bg-hero">
       <div className="container mx-auto">
         <Navbar />
         <div className="mt-20 text-center">
@@ -15,7 +15,7 @@ export default function Hero() {
             divides this large development into three blocks to create a
             vertical village around a central landscaped courtyard.
           </p>
-          <Button variant="yellow" className="mt-12">
+          <Button pill variant="yellow" className="mt-12">
             Learn more
           </Button>
         </div>
