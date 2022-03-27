@@ -1,7 +1,12 @@
-export default function NavItem({ children }) {
+export default function NavItem({ href, children }) {
   return (
     <li>
-      <a className="text-lg font-semibold text-white ">{children}</a>
+      <a
+        href={href}
+        className="cursor-pointer text-lg font-semibold text-white text-opacity-80 transition hover:text-opacity-100"
+      >
+        {children}
+      </a>
     </li>
   );
 }

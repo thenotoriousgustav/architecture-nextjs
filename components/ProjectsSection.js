@@ -4,11 +4,11 @@ import SectionTitle from './SectionTitle';
 
 export default function SectionProjects() {
   return (
-    <section className="py-20">
-      <div className="container mx-auto">
+    <section className="py-28" id="projects">
+      <div className="container mx-auto px-14">
         <SectionTitle>Projects</SectionTitle>
         <SectionParagraph>Our Projects</SectionParagraph>
-        <div className="mx-auto mt-20 flex flex-wrap">
+        <div className="-mx-4 mt-20 flex flex-wrap">
           <div className="w-6/12 px-4 pb-8">
             <ProjectItem
               name="Yanta"
@@ -23,7 +23,7 @@ export default function SectionProjects() {
               image="/img2.jpg"
             />
           </div>
-          <div className="w-6/12 px-4">
+          <div className="w-6/12 px-4 ">
             <ProjectItem
               name="Dapaw"
               desc="Abstract Structure Apartment"

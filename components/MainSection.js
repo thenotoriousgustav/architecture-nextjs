@@ -4,11 +4,11 @@ import SectionTitle from './SectionTitle';
 
 export default function MainSection() {
   return (
-    <section className="py-28">
-      <div className="container mx-auto">
+    <section className="py-28" id="profile">
+      <div className="container mx-auto px-10 2xl:px-0">
         <SectionTitle>Diyanta</SectionTitle>
         <SectionParagraph>Gran Vía, Madrid, Spain</SectionParagraph>
-        <div className="mx-auto mt-14 flex w-9/12 items-center">
+        <div className="md:flex-start mx-auto mt-14 flex md:items-start lg:items-center 2xl:w-9/12">
           <div className="w-5/12">
             <Image src="/main.jpg" height={700} width={500} alt="apartment" />
           </div>
@@ -32,6 +32,15 @@ export default function MainSection() {
               pharetra et. Vestibulum est ex, placerat ut magna ac, laoreet
               tempus quam. Proin nec orci ut enim tempor consequat sit amet a
               nisi.
+            </p>
+            <p className="mt-5 text-lg leading-relaxed">
+              Nullam et condimentum diam. Sed interdum quam in congue tristique.
+              Cras ut purus ornare, laoreet sapien ac, vehicula ipsum. Praesent
+              ornare ante eget vestibulum aliquet. Donec vitae nisi maximus,
+              pretium enim vel, gravida nisi. Duis eu sapien metus. Vestibulum
+              dignissim congue elit, ac dapibus justo congue sed. pharetra et.
+              Vestibulum est ex, placerat ut magna ac, laoreet tempus quam.
+              Proin nec orci ut enim tempor consequat sit amet a nisi.
             </p>
           </div>
         </div>

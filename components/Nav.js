@@ -3,10 +3,10 @@ import NavItem from './NavItem';
 export default function Nav() {
   return (
     <ul className="flex justify-center space-x-10">
-      <NavItem>Home</NavItem>
-      <NavItem>About</NavItem>
-      <NavItem>Projects</NavItem>
-      <NavItem>Contact</NavItem>
+      <NavItem href="#profile">Profile</NavItem>
+      <NavItem href="#about">About</NavItem>
+      <NavItem href="#projects">Projects</NavItem>
+      <NavItem href="#contact">Contact</NavItem>
     </ul>
   );
 }

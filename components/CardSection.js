@@ -4,57 +4,57 @@ import SectionTitle from './SectionTitle';
 
 export default function SectionCard() {
   return (
-    <section className="bg-gray-100 py-20">
-      <div className="container mx-auto">
+    <section className="bg-gray-100 py-20" id="about">
+      <div className="container mx-auto px-10">
         <SectionTitle>Arch</SectionTitle>
         <SectionParagraph>About Diyanta</SectionParagraph>
-        <div className="mt-20 flex flex-wrap ">
-          <div className="w-4/12 px-4 pb-8">
+        <div className="mt-20 flex flex-wrap">
+          <div className="w-6/12 px-4 pb-8 lg:w-4/12">
             <Card
               name="Interior"
               desc="Elegant and Cozy"
               image="/icon1.svg"
-              imageClassName="h-12"
+              imageClassName="h-10"
             />
           </div>
-          <div className="w-4/12 px-4 pb-8">
+          <div className="w-6/12 px-4 pb-8 lg:w-4/12">
             <Card
               name="Structure"
-              desc="Good and Strong Structure"
+              desc="Good Structure"
               image="/icon2.svg"
-              imageClassName="h-12"
+              imageClassName="h-10"
             />
           </div>
-          <div className="w-4/12 px-4 pb-8">
+          <div className="w-6/12 px-4 pb-8 lg:w-4/12">
             <Card
               name="Place"
-              desc="Strategic Place and Bussiness Area"
+              desc="Strategic Place"
               image="/icon3.svg"
-              imageClassName="h-12"
+              imageClassName="h-10"
             />
           </div>
-          <div className="w-4/12 px-4">
+          <div className="w-6/12 px-4 lg:w-4/12">
             <Card
               name="Interior"
               desc="Elegant and Cozy"
               image="/icon1.svg"
-              imageClassName="h-12"
+              imageClassName="h-10"
             />
           </div>
-          <div className="w-4/12 px-4">
+          <div className="w-6/12 px-4 lg:w-4/12">
             <Card
               name="Structure"
-              desc="Good and Strong Structure"
+              desc="Good Structure"
               image="/icon2.svg"
-              imageClassName="h-12"
+              imageClassName="h-10"
             />
           </div>
-          <div className="w-4/12 px-4">
+          <div className="w-6/12 px-4 lg:w-4/12">
             <Card
               name="Place"
-              desc="Strategic Place and Bussiness Area"
+              desc="Strategic Place"
               image="/icon3.svg"
-              imageClassName="h-12"
+              imageClassName="h-10"
             />
           </div>
         </div>
