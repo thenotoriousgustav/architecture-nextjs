@@ -9,7 +9,7 @@ export default function MainSection() {
         <SectionTitle>Diyanta</SectionTitle>
         <SectionParagraph>Gran Vía, Madrid, Spain</SectionParagraph>
         <div className="mx-auto mt-14 flex w-full flex-wrap items-center 2xl:w-9/12">
-          <div className="mb-4 w-full md:mb-6 md:px-24 lg:w-5/12 lg:px-10">
+          <div className="mb-4 w-full md:mb-6 md:px-24 lg:w-5/12 lg:px-2 xl:px-6">
             <Image
               src="/main.jpg"
               height={700}
@@ -18,7 +18,7 @@ export default function MainSection() {
               objectFit="center"
             />
           </div>
-          <div className="mx-auto w-full md:w-9/12 lg:w-7/12 lg:px-10">
+          <div className="mx-auto w-full items-center md:w-9/12 lg:w-7/12 lg:px-10 lg:pb-6 2xl:px-8 2xl:pb-8">
             <p className="text-lg leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem
               ante, laoreet ut urna sed, placerat feugiat justo. Maecenas ac est
