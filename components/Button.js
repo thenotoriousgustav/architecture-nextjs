@@ -3,7 +3,7 @@ import classNames from 'classnames';
 export default function Button({ href, className, variant, children, pill }) {
   const variants = {
     'outline-yellow':
-      'border border-yellow-500 text-yellow-500 hover:text-black hover:bg-yellow-500 2xl:mr-10',
+      'border border-yellow-500 text-yellow-500 hover:text-black hover:bg-yellow-500 2xl:mr-10 md:block hidden',
     'yellow': 'bg-yellow-500 text-black hover:bg-yellow-600',
     'black': 'bg-black text-white hover:bg-opacity-75',
   };

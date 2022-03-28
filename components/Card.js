@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 export default function Card({ name, image, desc, imageClassName }) {
   return (
-    <div className="flex-wrap items-center rounded-lg bg-white p-8 text-center shadow-xl shadow-blue-50 ring-2 ring-blue-200 lg:flex lg:text-left">
+    <div className="flex-wrap items-center rounded-lg bg-white p-6 text-center shadow-xl shadow-blue-50 ring-2 ring-blue-200 lg:flex lg:p-8 lg:text-left">
       <img
         src={image}
         alt="icon"
