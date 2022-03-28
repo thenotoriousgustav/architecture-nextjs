@@ -8,29 +8,29 @@ export default function SectionProjects() {
       <div className="container mx-auto px-14">
         <SectionTitle>Projects</SectionTitle>
         <SectionParagraph>Our Projects</SectionParagraph>
-        <div className="-mx-4 mt-20 flex flex-wrap">
-          <div className="w-6/12 px-4 pb-8">
+        <div className="mt-20 flex flex-wrap md:-mx-4">
+          <div className="w-full pb-8 lg:w-6/12 lg:px-4">
             <ProjectItem
               name="Yanta"
               desc="Classy and Cozy Aparthouse"
               image="/img1.jpg"
             />
           </div>
-          <div className="w-6/12 px-4 pb-8">
+          <div className="w-full pb-8 lg:w-6/12 lg:px-4">
             <ProjectItem
               name="Diyanta"
               desc="Modern Apartment"
               image="/img2.jpg"
             />
           </div>
-          <div className="w-6/12 px-4 ">
+          <div className="w-full pb-8 lg:w-6/12 lg:px-4 ">
             <ProjectItem
               name="Dapaw"
               desc="Abstract Structure Apartment"
               image="/img3.jpg"
             />
           </div>
-          <div className="w-6/12 px-4">
+          <div className="w-full pb-8 lg:w-6/12 lg:px-4">
             <ProjectItem
               name="Dala"
               desc="Classical Old Money Townhouse"

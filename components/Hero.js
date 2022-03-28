@@ -3,10 +3,10 @@ import Button from './Button';
 
 export default function Hero() {
   return (
-    <div className="h-[640px] bg-cover bg-bottom bg-hero md:h-[700px] 2xl:h-[830px]">
+    <div className="h-[680px] bg-cover bg-bottom bg-hero md:h-[650px] lg:h-[700px] 2xl:h-[830px]">
       <div className="container mx-auto px-10 2xl:px-0">
         <Navbar />
-        <div className="mt-7 text-center xl:mt-32 2xl:mt-36">
+        <div className="mt-7 text-center md:mt-24 xl:mt-32 2xl:mt-36">
           <h1 className="font-montserrat text-5xl font-bold text-white">
             Architecture<span className="text-red-600">.</span>
           </h1>

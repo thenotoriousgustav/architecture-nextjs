@@ -8,11 +8,17 @@ export default function MainSection() {
       <div className="container mx-auto px-10 2xl:px-0">
         <SectionTitle>Diyanta</SectionTitle>
         <SectionParagraph>Gran Vía, Madrid, Spain</SectionParagraph>
-        <div className="md:flex-start mx-auto mt-14 flex md:items-start lg:items-center 2xl:w-9/12">
-          <div className="w-5/12">
-            <Image src="/main.jpg" height={700} width={500} alt="apartment" />
+        <div className="mx-auto mt-14 flex w-full flex-wrap items-center 2xl:w-9/12">
+          <div className="mb-4 w-full md:mb-6 md:px-24 lg:w-5/12 lg:px-10">
+            <Image
+              src="/main.jpg"
+              height={700}
+              width={500}
+              alt="apartment"
+              objectFit="center"
+            />
           </div>
-          <div className="w-7/12 px-10">
+          <div className="mx-auto w-full md:w-9/12 lg:w-7/12 lg:px-10">
             <p className="text-lg leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem
               ante, laoreet ut urna sed, placerat feugiat justo. Maecenas ac est
@@ -23,7 +29,7 @@ export default function MainSection() {
               tincidunt et mauris id sagittis. Maecenas cursus dui sed tempus
               vehicula. Ut hendrerit vitae nisi at tempor.
             </p>
-            <p className="mt-5 text-lg leading-relaxed">
+            <p className="mt-5 hidden text-lg leading-relaxed sm:block">
               Maecenas eget diam ultricies, tincidunt nunc eget, pulvinar
               ligula. Vivamus ornare mi in lorem euismod dignissim. Duis
               pulvinar urna ac ligula blandit lobortis. Curabitur at
@@ -33,7 +39,7 @@ export default function MainSection() {
               tempus quam. Proin nec orci ut enim tempor consequat sit amet a
               nisi.
             </p>
-            <p className="mt-5 text-lg leading-relaxed">
+            <p className="mt-5 hidden text-lg leading-relaxed xl:block">
               Nullam et condimentum diam. Sed interdum quam in congue tristique.
               Cras ut purus ornare, laoreet sapien ac, vehicula ipsum. Praesent
               ornare ante eget vestibulum aliquet. Donec vitae nisi maximus,
