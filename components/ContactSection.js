@@ -10,9 +10,9 @@ export default function ContactSection() {
       className="container mx-auto px-10 md:px-6 lg:px-10 2xl:px-0"
       id="contact"
     >
-      <div className="flex rounded-lg bg-gray-100">
-        <div className="w-6/12 border-r border-gray-300">
-          <div className="p-14 md:p-14 lg:py-16 lg:px-20">
+      <div className="flex flex-wrap rounded-lg bg-gray-100">
+        <div className="w-full border-b border-gray-300 md:w-6/12 md:border-r">
+          <div className="px-5 py-7 sm:p-14 md:p-14 lg:py-16 lg:px-20">
             <SectionTitle left>Contact</SectionTitle>
             <SectionParagraph left>How to Contact me:</SectionParagraph>
             <ContactItem
@@ -42,8 +42,8 @@ export default function ContactSection() {
           </div>
         </div>
 
-        <div className="w-6/12">
-          <form className="p-14 lg:py-16 lg:px-20">
+        <div className="w-full md:w-6/12">
+          <form className="p-6 sm:p-14 lg:py-16 lg:px-20">
             <div className="-mx-4 flex flex-wrap">
               <div className="w-full px-4 lg:w-6/12">
                 <Field label="Name:" name="name" type="text" />

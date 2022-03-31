@@ -9,7 +9,7 @@ export default function SectionCard() {
         <SectionTitle>Arch</SectionTitle>
         <SectionParagraph>About Diyanta</SectionParagraph>
         <div className="mt-20 flex flex-wrap">
-          <div className="w-6/12 px-4 pb-8 lg:w-4/12">
+          <div className="w-6/12 px-2 pb-8 md:px-4 lg:w-4/12">
             <Card
               name="Interior"
               desc="Elegant and Cozy"
@@ -17,7 +17,7 @@ export default function SectionCard() {
               imageClassName="h-10"
             />
           </div>
-          <div className="w-6/12 px-4 pb-8 lg:w-4/12">
+          <div className="w-6/12 px-2 pb-8 md:px-4 lg:w-4/12">
             <Card
               name="Structure"
               desc="Good Structure"
@@ -25,7 +25,7 @@ export default function SectionCard() {
               imageClassName="h-10"
             />
           </div>
-          <div className="w-6/12 px-4 pb-8 lg:w-4/12">
+          <div className="w-6/12 px-2 pb-8 md:px-4 lg:w-4/12">
             <Card
               name="Place"
               desc="Strategic Place"
@@ -33,7 +33,7 @@ export default function SectionCard() {
               imageClassName="h-10"
             />
           </div>
-          <div className="w-6/12 px-4 lg:w-4/12">
+          <div className="w-6/12 px-2 md:px-4 lg:w-4/12">
             <Card
               name="Interior"
               desc="Elegant and Cozy"
@@ -41,7 +41,7 @@ export default function SectionCard() {
               imageClassName="h-10"
             />
           </div>
-          <div className="w-6/12 px-4 lg:w-4/12">
+          <div className="w-6/12 px-2 md:px-4 lg:w-4/12">
             <Card
               name="Structure"
               desc="Good Structure"
@@ -49,7 +49,7 @@ export default function SectionCard() {
               imageClassName="h-10"
             />
           </div>
-          <div className="w-6/12 px-4 lg:w-4/12">
+          <div className="w-6/12 px-2 md:px-4 lg:w-4/12">
             <Card
               name="Place"
               desc="Strategic Place"
